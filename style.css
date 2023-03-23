@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+table,td,th{
+    border:2px solid black ;
+}
+.head{
+    background-color: gray;
+    border: 2px solid black;
+    color: blue;
+}
+
+.id{
+    background-color: gray;
+    border: 2px solid black;
+    color: blue;
+}
+button{
+    background-color: red;
+    cursor: pointer;
+}
+button:hover{
+    background-color: blue  ;
+}
